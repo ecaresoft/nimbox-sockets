@@ -1,0 +1,18 @@
+development:
+  adapter: async
+  # adapter: redis
+  # url: <%= ENV.fetch("REDISCLOUD_URL") %>
+  # channel_prefix: nimbox_sockets_development
+
+test:
+  adapter: test
+
+staging:
+  adapter: redis
+  url: <%= ENV.fetch("REDISCLOUD_URL") %>
+  channel_prefix: nimbox_sockets_staging
+
+production:
+  adapter: redis
+  url: <%= ENV.fetch("REDISCLOUD_URL") %>
+  channel_prefix: nimbox_sockets_production
