@@ -1,24 +1,15 @@
-# README
+## Action Cable For Nimbox - Nimbox Sockets App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This a action cable app to serve websockets channels to ours nimbox services
 
-Things you may want to cover:
+Dev Requirements:
 
-* Ruby version
+- Ruby Version: 3.0.1
+- Rails Version: 7.0.3
+- Redis up and Running, yo setup do this by doing:
+  - `docker run --name my-redis -p 6379:6379 -d redis`
+   
+## Steps:
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Clone the repository
+* bundle install
